@@ -1,0 +1,40 @@
+body{
+        background-color: #b7db63;
+      }
+      .title_bk{
+        margin-top: -12px;
+        margin-left: -10px;
+        margin-right: -7px;
+        background-color: black;
+        padding: 100px;
+        align-items: center;
+      }
+      .title{
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+        font-size: 150px;
+      }
+      .uwwu{
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: italic;
+      }
+      .btn{
+        border-color: black;
+        cursor: hand;
+        margin: 80px;
+        color: black;
+        font-size: 28px;
+        padding: 20px;
+        background-color:transparent;
+        font-family: 'Ubuntu', sans-serif;
+        border-radius: 20px;
+        transition-duration: 1s;
+      }
+      .btn:hover{
+        background-color: #3fd49d;
+        //border-color: #3fd4d4;
+      }
+      .btn_con{
+        display:block;
+      }
