@@ -21,7 +21,7 @@ body{
       }
       .btn{
         border-color: black;
-        cursor: hand;
+        cursor: pointer;
         margin: 80px;
         color: black;
         font-size: 28px;
