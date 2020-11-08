@@ -11,11 +11,6 @@ window.onload = () => {
   "Increible que siga escribiendo cosas","rAnDoM nUmBeEeEeEr","status: playgramming","ALT+F4 para abrir una ventana chula ;)","Linux forever"]
   var num = Math.random() * (frase.length+1) - 1;
   num = parseInt(num)
-  for (var i = 0; i < frase.length; i++) {
-    if(num == i){
-      document.getElementById("rand").innerHTML = frase[i];
-      break;
-    }
-  }
+  document.getElementById("rand").innerHTML = frase[num];
   console.log(frase.length + " / " + num)
 }
