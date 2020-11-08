@@ -2,9 +2,9 @@ body{
         background-color: #b7db63;
       }
       .title_bk{
-        margin-top: -12px;
-        margin-left: -10px;
-        margin-right: -7px;
+        margin-top: -1%;
+        margin-left: -1%;
+        margin-right: -0.5%;
         background-color: black;
         padding: 100px;
         align-items: center;
@@ -12,10 +12,11 @@ body{
       .title{
         font-family: 'Ubuntu', sans-serif;
         color: white;
-        font-size: 150px;
+        font-size: 680%;
       }
       .uwwu{
         color: white;
+        font-size: 150%;
         font-family: 'Ubuntu', sans-serif;
         font-style: italic;
       }
@@ -24,7 +25,7 @@ body{
         cursor: pointer;
         margin: 80px;
         color: black;
-        font-size: 28px;
+        font-size: 250%;
         padding: 20px;
         background-color:transparent;
         font-family: 'Ubuntu', sans-serif;
@@ -33,7 +34,6 @@ body{
       }
       .btn:hover{
         background-color: #3fd49d;
-        //border-color: #3fd4d4;
       }
       .btn_con{
         display:block;
